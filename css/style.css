@@ -1,4 +1,8 @@
 /* GAME STYLES */
+body
+{
+	font-family: 'Arial, sans-serif';
+}
 
 #board-game
 {
@@ -30,4 +34,35 @@
 	display: flex;
     align-items: center;
     justify-content: space-around
+}
+
+.cell .number
+{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.number-1
+{
+	color: blue;
+}
+
+.number-2
+{
+	color: green;
+}
+
+.number-3
+{
+	color: orange;
+}
+
+.number-4
+{
+	color: brown;
+}
+
+.number-5
+{
+	color: darkgrey;
 }
