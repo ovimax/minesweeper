@@ -17,7 +17,7 @@ body
 	width: 100px;
 	height: 100px;
 	border: 1px solid grey;
-	background-color: white;
+	background-color: #ccc;
 }
 
 .bomb
@@ -65,4 +65,9 @@ body
 .number-5
 {
 	color: darkgrey;
+}
+
+.cell.active
+{
+	background-color: #FFF;
 }
